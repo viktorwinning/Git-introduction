@@ -10,4 +10,11 @@ $("#guess_number").click(function(){
     else{
         alert(`Oops. wrong guess. The number was ${numbertoguess}`)
     }
-})
+});
+
+$("#red_background").click(function(){
+    $("body").css({"background-color":"red"});
+});
+$("#green_background").click(function(){
+    $("body").css({"background-color":"green"});
+});
